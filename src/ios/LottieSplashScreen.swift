@@ -171,10 +171,10 @@ import Lottie
                 .flexibleTopMargin, .flexibleLeftMargin, .flexibleBottomMargin, .flexibleRightMargin
             ]
 
-            let portrait =
-                UIApplication.shared.statusBarOrientation == UIInterfaceOrientation.portrait ||
-                UIApplication.shared.statusBarOrientation == UIInterfaceOrientation.portraitUpsideDown
-            autoresizingMask.insert(portrait ? .flexibleWidth : .flexibleHeight)
+            // let portrait =
+            //     UIApplication.shared.statusBarOrientation == UIInterfaceOrientation.portrait ||
+            //     UIApplication.shared.statusBarOrientation == UIInterfaceOrientation.portraitUpsideDown
+            // autoresizingMask.insert(portrait ? .flexibleWidth : .flexibleHeight)
 
             animationView?.autoresizingMask = autoresizingMask
             animationWidth = fullScreenzSize.width
